@@ -1,0 +1,83 @@
+body, h1, h2, h3, p, ul{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 150px;
+    float:left;
+}
+li{
+    list-style: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    height: 200px;
+    background-color:darkred;
+}
+
+.header .title{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.title #title1{
+    color: yellow;   
+}
+
+.title #title2{
+    color: white;   
+}
+.content{
+    padding: 10px 0;
+    background-color: skyblue;
+    height: 500px;
+    width:100%;
+}
+.content-2{
+    height: 700px;
+    background-image: url("../img/cuzco2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content-3{
+    height: 400px;
+}
+
+.image{
+    height: 480px;
+    display: block;
+    margin: 0 auto;
+}
+.text-container{
+    color:white;
+    float: right;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.text-container #title1-1{
+    color:yellow;
+}
+.text-container .sub-text{
+    color:white;
+}
+
+.prices-content{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.prices-content p{
+    font-size: 50px;
+    font-weight: bold;
+}
